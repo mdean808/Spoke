@@ -1,0 +1,12 @@
+Package: xyz.mogdan.spoke
+Name: Spoke
+Depends: mobilesubstrate, me.nepeta.libcolorpicker
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: Customize your activity indicators!
+Icon: https://repo.mogdan.xyz/web/xyz.mogdan.spoke/icon.png
+Maintainer: Unicorn808
+Author: Unicorn808
+Section: Tweaks
+SileoDepiction: https://repo.mogdan.xyz/sileo/xyz.mogdan.spoke/depiction.json
+Depiction: https://repo.mogdan.xyz/web/xyz.mogdan.spoke/
