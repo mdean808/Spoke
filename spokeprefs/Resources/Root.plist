@@ -8,7 +8,7 @@
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>label</key>
-			<string>Colors</string>
+			<string>Default Indicator Colors</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -52,6 +52,48 @@
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>label</key>
+			<string>Custom Indicator</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>xyz.mogdan.spokeprefs</string>
+			<key>key</key>
+			<string>customEnabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Place the custom indicator files in /Library/Application Support/Spoke/CustomIndicators/{indicator name}</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>default</key>
+			<string></string>
+			<key>defaults</key>
+			<string>xyz.mogdan.spokeprefs</string>
+			<key>prompt</key>
+			<string>CapitanLoader</string>
+			<key>key</key>
+			<string>customIndicatorName</string>
+			<key>label</key>
+			<string>Folder Name:</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
 			<string>Made with magic dust by Unicorn808</string>
 		</dict>
 		<dict>
@@ -61,6 +103,12 @@
 			<string>PSButtonCell</string>
 			<key>label</key>
 			<string>Donation Station</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Prefs icon designed by Freepik from Flaticon</string>
 		</dict>
 	</array>
 	<key>title</key>
